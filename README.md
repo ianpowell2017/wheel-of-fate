@@ -18,7 +18,7 @@ The collection object is then stored in the fake repository and returned to the 
 
 The React app then pushes each of the returned names into the week planner and is then displayed twice.
 
-### This table shows the allocation process
+### Allocation process
 | Day       | Position in dataset | Position in dataset |
 |-----------|---------------------|---------------------|
 | Monday    | 1                   | 2                   |
@@ -32,7 +32,7 @@ The React app then pushes each of the returned names into the week planner and i
 | Thursday  | 7                   | 8                   |
 | Friday    | 9                   | 10                  |
 
-If you're in position 1 of the returned dataset then you get allocated to Monday AM slot
+If you're in position 1 of the returned dataset then you get allocated to Monday AM slot, position 2 and you're allocated to Monday PM etc.
 
 ## Trade offs
 
