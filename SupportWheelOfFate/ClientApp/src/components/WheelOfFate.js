@@ -27,8 +27,8 @@ export class WheelOfFate extends Component {
     }
 
     engineerNameChange(no, name) {
-        var allEngineers = this.state.engineers.slice();
-        var updatedEngineers = allEngineers.map((engineer) => {
+        const allEngineers = this.state.engineers.slice();
+        const updatedEngineers = allEngineers.map((engineer) => {
             if (engineer.no === no) {
                 engineer.name = name;
             }
